@@ -1,11 +1,11 @@
-let nombre1 = "Juan";
-let turnos2 = 2;
+let nombre = "Juan";
+let turnos = 1;
 
-if (nombre1 == "Juan") {
-    alert("Hola" + nombre1);   
-} else if (edad >= 1) {
+if (nombre == "Juan") {
+    alert("Hola" + nombre);   
+} else if (turnos >= 1) {
     alert("Todavia tenes turnos disponibles");
-} else if (edad == 0) {
+} else if (turnos == 0) {
     alert ("No tenes turnos disponibles");
 }
 
@@ -19,4 +19,10 @@ function solicitarHorario () {
     alert ("Su proximo horario sera a las " + horarioIngresado);
 }
 
-let horarioIngresado = 18;
+solicitarHorario (resulrado);
+
+
+const masculino = ["Juan", "Carlos", "Jorge", "Manuel", "Mario"];
+const femenino = ["Carla", "Ana", "Juana", "Sofia", "Maria"];
+const socios = masculino.concat (femenino)
+console.log (socios)

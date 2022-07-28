@@ -1,28 +1,25 @@
-let nombre = "Juan";
+function iniciarSesion () {
+    let usuarioIngresado = prompt ("IngresarUsuario");
+    alert ("Hola" + usuarioIngresado + "iniciaste sesion")
+}
+
+iniciarSesion ();
+
 let turnos = 1;
 
-if (nombre == "Juan") {
-    alert("Hola" + nombre);   
-} else if (turnos >= 1) {
-    alert("Todavia tenes turnos disponibles");
-} else if (turnos == 0) {
-    alert ("No tenes turnos disponibles");
+function turnosDisponibles () {
+    let usuarioIngresado = prompt ("Ingresa tu usuario");
+    if (turnos <= 1) {
+        alert ("Hola" + usuarioIngresado + "tenes turnos disponibles");
+    }
+    if (turnos >= 1) {
+        alert ("Hola" + usuarioIngresado + "tenes que solcitar mas turnos")
+    }
 }
 
-for (let i = 1; i < 5; i++) {
-    let nombreUsuario = prompt ("Nombre usuario");
-    alert ("Turno numero: "+i+"Usuario:" +nombreUsuario);
-}
-
-function solicitarHorario () {
-    let horarioIngresado = prompt ("Ingresar horario");
-    alert ("Su proximo horario sera a las " + horarioIngresado);
-}
-
-solicitarHorario (resulrado);
-
+turnosDisponibles ();
 
 const masculino = ["Juan", "Carlos", "Jorge", "Manuel", "Mario"];
 const femenino = ["Carla", "Ana", "Juana", "Sofia", "Maria"];
 const socios = masculino.concat (femenino)
-console.log (socios)
+console.log (socios) 

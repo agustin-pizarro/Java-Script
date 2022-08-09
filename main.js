@@ -25,6 +25,15 @@ const socios = masculino.concat (femenino)
 console.log (socios) 
 */
 
+/* Evento para formulario */
+let formularioTurno = document.getElementByClassName ("formulario");
+formularioTurno.addEventListener ("submit", validarTurno);
+
+function validarTurno (e) {
+    e.preventDefault ();
+    console.log ("Turno validado");
+}
+
 /* DOM */
 let titulo = document.getElementsByClassName ("primerTit");
 console.log (titulo.innertText);

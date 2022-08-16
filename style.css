@@ -21,7 +21,7 @@ body{
 }
     
 .textoMain{
-    color: white;
+    color: white
 }
     
 .primerTit{
@@ -60,6 +60,81 @@ body{
     font-size: 25px;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+/* PRECIOS */
+.tituloTabla{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+}
+  
+.tablaPrecios{
+    color: white;
+    border-color: rgb(221,20,26);
+    margin-left: 30%;
+    height: 40vh;
+    width: 40vw;
+}
+  
+.turnoTabla{
+    background-color: rgb(42, 41, 42);
+    text-align: center;
+}
+  
+.precioTabla{
+    background-color: rgb(61, 60, 61);
+    text-align: center;
+}
+  
+.textoTabla1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  
+.textoTabla3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+}
+
+/* CONTACTO */
+.textoMapa{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+}
+  
+.mapa{
+    width: 60vw;
+    height: 25vh;
+    margin-left: 20%; 
+ }
+  
+.formulario{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* TIENDA */
+
+
+
+/* INICIAR SESION */
+.iniciarTit{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
 }
 
 /* FOOTER */

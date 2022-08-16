@@ -53,3 +53,11 @@ let turnosRestantesJS = JSON.stringify (turnosRestantes);
 
 console.log (turnosRestantes);
 console.log (turnosRestantesJS);
+
+/* SWEET ALERT */
+swal.fire ({
+    title: "¡Nuesta tienda ya esta disponible!",
+    text: "Podes encontrar suplementos y equipamientos para mejorar tus entrenamientos",
+    background: "#dd141a",
+});
+

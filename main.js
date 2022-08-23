@@ -61,3 +61,16 @@ swal.fire ({
     background: "#dd141a",
 });
 
+/* API de clima */
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': 'efaa982ad4msh67dea4705ec3fe2p1a4fafjsnf634e3e6c720',
+		'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+	}
+};
+
+fetch('https://weatherapi-com.p.rapidapi.com/future.json?q=London&dt=2022-08-24', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
